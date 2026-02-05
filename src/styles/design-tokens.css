@@ -1,0 +1,102 @@
+/**
+ * Design Token CSS Variables - Auto-generated from Figma (Tokens Studio)
+ * Generated at: 2026-02-05T00:39:26.275Z
+ *
+ * ⚠️ 이 파일은 자동 생성됩니다. 직접 수정하지 마세요.
+ * 수정이 필요하면 Figma에서 변경 후 pnpm sync:tokens 실행
+ *
+ * 사용법: globals.css에서 @import './design-tokens.css';
+ */
+
+@theme inline {
+
+  /* Primitive Colors */
+  --color-base-white: #ffffff;
+  --color-base-black: #18181b;
+  --color-neutral-100: #f8f8f8;
+  --color-neutral-500: #b4b4b4;
+  --color-neutral-700: #565656;
+  --color-neutral-900: #2f2f2f;
+  --color-blue-500: #387adf;
+  --color-purple-500: #604fed;
+  --color-purple-600: #5746e2;
+  --color-red-500: #ff3757;
+
+  /* Text Colors */
+  --color-text-primary: #18181b;
+  --color-text-secondary: #565656;
+  --color-text-inverse: #ffffff;
+
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f8f8f8;
+  --color-bg-brand: #604fed;
+
+  /* Border Colors */
+  --color-border-primary: #b4b4b4;
+
+  /* Icon Colors */
+
+  /* Spacing */
+  --spacing-size-unit-0: 0px;
+  --spacing-size-unit-4: 4px;
+  --spacing-size-unit-8: 8px;
+  --spacing-size-unit-16: 16px;
+  --spacing-size-unit-24: 24px;
+  --spacing-space-0: 0px;
+  --spacing-space-4: 4px;
+  --spacing-space-8: 8px;
+  --spacing-space-16: 16px;
+  --spacing-space-24: 24px;
+
+  /* Container Sizes */
+
+  /* Font Sizes */
+
+  /* Line Heights */
+
+  /* Border Radius */
+
+  /* Typography - Heading */
+
+  /* Typography - Body */
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--color-text-primary);
+  }
+  .text-secondary {
+    color: var(--color-text-secondary);
+  }
+  .text-inverse {
+    color: var(--color-text-inverse);
+  }
+  .bg-primary {
+    background-color: var(--color-bg-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-bg-secondary);
+  }
+  .bg-brand {
+    background-color: var(--color-bg-brand);
+  }
+  .border-primary {
+    border-color: var(--color-border-primary);
+  }
+  .space-0 {
+    gap: 0px;
+  }
+  .space-4 {
+    gap: 4px;
+  }
+  .space-8 {
+    gap: 8px;
+  }
+  .space-16 {
+    gap: 16px;
+  }
+  .space-24 {
+    gap: 24px;
+  }
+}
